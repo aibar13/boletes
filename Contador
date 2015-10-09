@@ -1,0 +1,13 @@
+int a = 0;
+void setup() {
+size(500,500);
+}
+void draw(){
+  background(0);
+  textSize(30);
+  fill(255,0,0);
+  text("Punts"+ a, 350, 50);}
+ void mouseClicked() {
+  if(a == a){   
+  a= a+1;}
+}
