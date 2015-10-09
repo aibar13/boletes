@@ -1,0 +1,5 @@
+background(0);
+size(500,500);
+textSize(30);
+fill(255,0,0);
+text("Punts",350,50);
