@@ -1,0 +1,27 @@
+int dreta =0;
+int a = 0;
+int rebot = 0;
+
+void setup() {
+size(500,200);
+}
+
+void draw(){
+  dreta=dreta+rebot;
+  if(dreta>500){
+  rebot=-2;
+  dreta = dreta +rebot; }
+  if(dreta<0){
+  rebot=2;
+  dreta=dreta +rebot;}
+  background(0);
+  textSize(30);
+  fill(255,0,0);
+  text("Punts"+ a, 350, 50);
+  fill(255,0,0);
+  ellipse(dreta,100,50,50);
+}
+void mouseClicked() {
+  if(mouseX == dreta){   
+  a= a+1;}
+}
